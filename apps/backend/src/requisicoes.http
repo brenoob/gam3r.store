@@ -1,0 +1,36 @@
+GET http://localhost:3005/produtos
+
+###
+GET http://localhost:3005/produtos/29
+
+###
+DELETE http://localhost:3005/produtos/29
+
+###
+POST http://localhost:3005/produtos
+Content-Type: application/json
+
+{
+    "nome": "Galaxy S24 Ultra",
+    "descricao": "Samsung Galaxy S24 Ultra e um smartphone",
+    "marca": "Samsung",
+    "modelo": "Galaxy S24",
+    "imagem": "https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Facer-nitro-5.png?alt=media&token=094ba6a8-1a4d-414a-b32c-c176bfeaca8e",
+    "nota": 4.5,
+    "videoReview": "https://www.youtube.com/embed/8NQFr9De3lU?si=s_lN2KTQresD-36Y",
+    "tags": ["Baixou"],
+    "precoBase": 6499.99,
+    "precoPromocional": 5999.99,
+    "menorPreco": 4850.9,
+    "maiorPreco": 9800.8,
+    "precoMedio": 6503.7,
+    "especificacoes": {
+        "destaque": "NVIDIA GeForce RTX 2060",
+        "Processador": "Intel Core i5-9300H",
+        "Memória": "16GB DDR4",
+        "Armazenamento": "512GB SSD",
+        "Placa de Vídeo": "NVIDIA GeForce RTX 2060",
+        "Tela": "15.6 polegadas Full HD",
+        "Peso": "2.5 Kg"
+    }
+}
