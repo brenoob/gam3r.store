@@ -6,6 +6,6 @@ import { DbModule } from 'src/db/db.module';
 @Module({
   imports: [DbModule],
   controllers: [ProdutoController],
-  providers: [ProdutoPrisma]
+  providers: [ProdutoPrisma],
 })
 export class ProdutoModule {}
