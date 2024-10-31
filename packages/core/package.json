@@ -6,7 +6,8 @@
     "scripts": {
         "build": "tsup src/index.ts --dts --minify",
         "dev": "tsup src/index.ts --dts --watch",
-        "test": "jest --watchAll --collectCoverage"
+        "test": "jest --watchAll --collectCoverage",
+        "start": "node dist/index.js"
     },
     "keywords": [],
     "author": "hong",
